@@ -10,6 +10,7 @@
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
         <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
         <!-- Styles -->
        <!-- <style>
@@ -25,6 +26,11 @@
         @include('partials.sidebaraction')
         @include('partials.doctor_specialist')
         @include('partials.service')
+        @include('partials.promiseservice')
+        @include('partials.status_customer')
+        @include('partials.bonus_info')
+        @include('partials.GoMed')
+        @include('partials.Footer')
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <!-- Slick JS -->
